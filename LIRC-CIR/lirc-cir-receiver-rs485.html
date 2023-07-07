@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Dieter Fauth"/>
+	<link rel="stylesheet" href="../css/styles.css">
+	<title>Receiver for LIRC or CIR</title>
+</head>
+
+<body>
+<h1>Receiver for LIRC or CIR</h1>
+
+<p>
+This is a hardware proposal for receiving infrared signals used by consumer
+remote controls. The difference to the many much simpler circuits is
+that it supports distances longer than the usual 1 meter (3 feet). To
+achieve a reliable connection, the IR signals are transferred with
+RS485 and twisted pair. In my case the distance is 8 meters between
+the TV and the PC that runs the VDR program.</p>
+<p>
+One goal was to provide an easy upgrade path from the older Serial-Lirc to the
+CIR provided by some modern mainboards. Therefore it supports both
+the Com-Port connection and the CIR connection (Asrock).</p>
+
+<p>See below for schematics in Eagle format.</p>
+
+<p>Links:</p>
+<p><A HREF="http://www.vdr-portal.de/">VDR portal (mosly German, though English question will be answered)</A></p>
+<p><A HREF="http://www.lirc.org/">http://www.lirc.org/</A></p>
+
+<p>License: GPL.</p>
+
+<h2>Schematics for the TV side in PNG format.</h2>
+<IMG SRC="img/Cir-Receiver-TV.png" NAME="graphics1" ALIGN=LEFT WIDTH=665 HEIGHT=495 BORDER=0>
+
+<h2><br CLEAR=LEFT>Schematics for the PC side in PNG format.</h2>
+<IMG SRC="img/Cir-Adapter-PC.png" NAME="graphics2" ALIGN=LEFT WIDTH=665 HEIGHT=495 BORDER=0><br CLEAR=LEFT><br>
+
+<h2><A HREF="../download/IR-Receiver-RS485-Eagle.zip">Schematics in Eagle format</A></h2>
+
+<footer>
+	<LEGAL><a href="../Common/Impressum.html">Impressum</a>
+	<LEGAL><a href="../Common/PrivacyPolicy.html">Privacy Policy</a>
+	<LEGAL><a href="../index.html">Home</a>
+	<DATE>Edition of this page: <sdfield type=DATETIME sdnum="1033;1033;YYYY-MM-DD">2018-05-25</sdfield>
+</footer>
+
+</body>
+</HTML>
